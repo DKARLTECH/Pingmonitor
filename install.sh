@@ -9,7 +9,7 @@ CYAN="\033[1;36m"
 RESET="\033[0m"
 
 # Installation Message
-echo -e "${BLUE}<..Installing HelzaTech PingMaster..>${RESET}"
+echo -e "${BLUE}<..Installing Pingmonitor PingMaster..>${RESET}"
 
 # Install Dependencies
 termux-setup-storage
@@ -30,7 +30,7 @@ IP_ADDR=$(curl -s ifconfig.me)
 clear  # Clear screen before showing the dashboard
 
 echo -e "${BLUE}==========================================${RESET}"
-echo -e "${GREEN}    ✅ HELZATECH INSTALLATION SUCCESSFUL! ✅      ${RESET}"
+echo -e "${GREEN}    ✅ PINGMONITOR INSTALLATION SUCCESSFUL! ✅      ${RESET}"
 echo -e "${BLUE}==========================================${RESET}"
 
 echo -e "${YELLOW}📌 Device Info:${RESET}"
