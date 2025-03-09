@@ -9,7 +9,7 @@ CYAN="\033[1;36m"
 RESET="\033[0m"
 
 # Installation Message
-echo -e "${BLUE}<..Installing Pingmonitor PingMaster..>${RESET}"
+echo -e "${BLUE}<..Installing Pingmonitor..>${RESET}"
 
 # Install Dependencies
 termux-setup-storage
